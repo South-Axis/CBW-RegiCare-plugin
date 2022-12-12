@@ -1,0 +1,16 @@
+{
+    "name": "southaxis/regicare",
+    "description": "RegiCare Link Servicepoint",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "graze/guzzle-jsonrpc": "^3.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Laurens Tobias",
+            "email": "laurens.tobias@southaxis.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
