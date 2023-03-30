@@ -3,8 +3,6 @@
     const tagText = $('#tag').val();
     const groeperingID = $('#groepering').val();
     const groeperingText = $('#groepering option:selected').text();
-    const vrijkenmerk06ID = $('#vrijkenmerk06').val();
-    const vrijkenmerk06Text = $('#vrijkenmerk06 option:selected').text();
     const dagID = $('#dag').val();
     const dagText = $('#dag option:selected').text();
     const locatieID = $('#locatie').val();
@@ -16,10 +14,6 @@
       groeperingID +
       '&groeperingText=' +
       groeperingText +
-      '&vrijkenmerk06ID=' +
-      vrijkenmerk06ID +
-      '&vrijkenmerk06Text=' +
-      vrijkenmerk06Text +
       '&locatieID=' +
       locatieID +
       '&locatieText=' +
