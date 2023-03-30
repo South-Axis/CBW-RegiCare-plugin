@@ -451,34 +451,28 @@ if (!class_exists('ActivityShow')) {
             <div class='container'>
                 <table class="sb-table">
                     <tr>
-                        <td colspan="3"><label for='groepering'>Zoek Activiteit</label>
-                            <input type="text" class="form-control" style="background-color: #fff !important; border: 1px solid #ced4da; border-radius: 0.25rem;" id="tag" name="tag">
-                        </td>
+                    <td colspan="3">
+                        <label for="tag">Waar bent u naar op zoek? Typ hier uw zoekopdracht</label>
+                        <input type="text" class="form-control" style="background-color: #fff !important; border: 1px solid #ced4da; border-radius: 0.25rem;" id="tag" name="tag">
+                    </td>
                     </tr>
                     <tr>
-                        <td><label for='groepering'>Leeftijd</label>
+                        <td>
+                            <label for="groepering">Leeftijd</label>
                             <select class='form-control' id='groepering' name='groepering'>
-                                <option></option>
+                                <option selected value="">Selecteer een leeftijd...</option>
+                                <option value='78'>0-4 jaar kinderen</option>
                                 <option value='79'>4-12 jaar kinderen</option>
                                 <option value='81'>12-18 jaar jongeren</option>
-                            </select>
-                        </td>
-                        <td><label for='vrijkenmerk06'>Interesse</label>
-                            <select class='form-control' id='vrijkenmerk06' name='vrijkenmerk06'>
-                                <option></option>
-                                <option value='281'>Cognitief</option>
-                                <option value='282'>Fysiek</option>
-                                <option value='283'>Creatief</option>
-                                <option value='284'>Technisch</option>
-                                <option value='285'>Sociaal Emotioneel</option>
-                                <option value='289'>LEF</option>
+                                <option value='199'>19-65 jaar volwassenen</option>
+                                <option value='225'>65+ senioren</option>
+                                <option value='226'>kwetsbare groepen</option>
                             </select>
                         </td>
                         <td>
-                            <div class="sb-col-md-4">
-                                <label for='dag'>Dag</label>
-                                <select class='form-control' id='dag' name='dag'>
-                                    <option></option>
+                            <label for='dag'>Dag</label>
+                            <select class='form-control' id='dag' name='dag'>
+                                <option selected value="">Selecteer een dag...</option>
                                     <option value='2'>Maandag</option>
                                     <option value='3'>Dinsdag</option>
                                     <option value='4'>Woensdag</option>
@@ -486,13 +480,11 @@ if (!class_exists('ActivityShow')) {
                                     <option value='6'>Vrijdag</option>
                                     <option value='7'>Zaterdag</option>
                                 </select>
-                            </div>
                         </td>
-                    </tr>
-                    <tr>
-                        <td colspan="3"><label for='locatie'>Locatie</label>
+                        <td>
+                            <label for='locatie'>Locatie</label>
                             <select class='form-control' id='locatie' name='locatie'>
-                                <option></option>
+                                <option selected value="">Selecteer een locatie...</option>
                                 <option value='1'>De Singel (Edam)</option>
                                 <option value='2'>Pop-Cultuurhuis PX</option>
                                 <option value='3'>De Ark</option>
